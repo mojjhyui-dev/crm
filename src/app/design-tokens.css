@@ -1,0 +1,96 @@
+:root {
+  color-scheme: light;
+
+  --neutral-0: #ffffff;
+  --neutral-50: #f7f9f8;
+  --neutral-100: #f1f5f3;
+  --neutral-200: #e3eae7;
+  --neutral-300: #cbd5d0;
+  --neutral-500: #596660;
+  --neutral-700: #35443d;
+  --neutral-900: #172421;
+
+  --brand: #176b5c;
+  --brand-hover: #105849;
+  --brand-subtle: #e6f1ed;
+
+  --background: var(--neutral-50);
+  --foreground: var(--neutral-900);
+  --surface: var(--neutral-0);
+  --surface-subtle: var(--neutral-100);
+  --ink-muted: var(--neutral-500);
+  --line: var(--neutral-200);
+  --brand-strong: var(--brand-hover);
+  --brand-soft: var(--brand-subtle);
+  --warning: var(--brand-hover);
+  --warning-soft: var(--brand-subtle);
+  --danger: var(--brand-hover);
+  --danger-soft: var(--brand-subtle);
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 32px;
+  --space-8: 40px;
+  --space-9: 48px;
+
+  --font-latin: "Inter", sans-serif;
+  --font-arabic: "IBM Plex Sans Arabic", sans-serif;
+  --font-stack: var(--font-arabic), var(--font-latin), sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-full: 999px;
+
+  --shadow-subtle: 0 1px 2px rgb(23 36 33 / 6%);
+  --shadow-popover: 0 8px 24px rgb(23 36 33 / 12%);
+  --overlay: rgb(23 36 33 / 36%);
+
+  --motion-fast: 150ms;
+  --motion-ease: cubic-bezier(0.2, 0, 0, 1);
+
+  --card: var(--surface);
+  --card-foreground: var(--foreground);
+  --popover: var(--surface);
+  --popover-foreground: var(--foreground);
+  --primary: var(--brand);
+  --primary-foreground: var(--neutral-0);
+  --secondary: var(--surface-subtle);
+  --secondary-foreground: var(--foreground);
+  --muted: var(--surface-subtle);
+  --muted-foreground: var(--ink-muted);
+  --accent: var(--brand-soft);
+  --accent-foreground: var(--brand-strong);
+  --destructive: var(--danger);
+  --border: var(--line);
+  --input: var(--line);
+  --ring: var(--brand);
+  --radius: var(--radius-md);
+  --sidebar: var(--surface);
+  --sidebar-foreground: var(--foreground);
+  --sidebar-primary: var(--brand);
+  --sidebar-primary-foreground: var(--neutral-0);
+  --sidebar-accent: var(--brand-soft);
+  --sidebar-accent-foreground: var(--brand-strong);
+  --sidebar-border: var(--line);
+  --sidebar-ring: var(--ring);
+  --chart-1: var(--brand);
+  --chart-2: var(--neutral-500);
+  --chart-3: var(--neutral-300);
+  --chart-4: var(--neutral-700);
+  --chart-5: var(--neutral-200);
+}
+
+html[lang="en"] body {
+  font-family: var(--font-latin), var(--font-arabic), sans-serif;
+}
+
+html[lang="ar"] body {
+  font-family: var(--font-arabic), var(--font-latin), sans-serif;
+}
